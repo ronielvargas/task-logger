@@ -1,0 +1,12 @@
+.subtask-item {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: rgb(105, 105, 105);
+}
+    .subtask-item p {
+        margin: auto;
+    }
