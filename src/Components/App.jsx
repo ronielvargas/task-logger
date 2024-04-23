@@ -92,7 +92,11 @@ function App() {
                     <Button onClick={addTask}>Add</Button>
                 </div>
                 <Tasks tasks={tasks} onDelete={deleteTask} lastAdded={lastAdded} />
+  
             </Container>
+            <footer>
+                    <p>Created by Roniel P. Vargas</p>
+            </footer>
         </>
     );
 }
