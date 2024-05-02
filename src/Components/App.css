@@ -54,3 +54,28 @@ body {
 .form-group {
     width: 85%;
 }
+
+@media only screen and (max-width: 767px) {
+    .container {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .container h1 {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    
+    .frontend-container p,
+    .backend-container p {
+        font-size: 20px;
+    }
+
+    .frontend-container {
+        margin-left: 10px;
+    }
+
+    .backend-container {
+        margin-right: 10px;
+    }
+}
