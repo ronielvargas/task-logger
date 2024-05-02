@@ -72,10 +72,10 @@ body {
     }
 
     .frontend-container {
-        margin-left: 10px;
+       margin: 10px;
     }
 
     .backend-container {
-        margin-right: 10px;
+        margin: 10px;
     }
 }
